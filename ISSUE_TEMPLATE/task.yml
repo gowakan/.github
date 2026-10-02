@@ -1,0 +1,36 @@
+name: Task
+description: A unit of work for one area (Design, Backend, Mobile, Microsite, Yakan360, DataPipeline)
+title: "[Area] "
+type: Task
+projects: ["gowakan/3"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What Needs to Be Done
+      description: A short description of the work.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      value: |
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
+  - type: input
+    id: parent
+    attributes:
+      label: Parent Feature
+      placeholder: "#123"
+  - type: input
+    id: links
+    attributes:
+      label: Design / API Contract
+      description: Figma link or API documentation
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
