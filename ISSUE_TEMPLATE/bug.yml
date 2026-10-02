@@ -37,9 +37,7 @@ body:
     id: environment
     attributes:
       label: Environment
-      placeholder: "Staging / Production · Build version · Device and OS"
-    validations:
-      required: true
+      placeholder: "Dev / Prod · Build version · Device and OS"
   - type: textarea
     id: evidence
     attributes:
