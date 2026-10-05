@@ -1,6 +1,5 @@
 name: Bug
 description: Something that does not work as expected
-title: ""
 type: Bug
 projects: ["gowakan/3"]
 body:
