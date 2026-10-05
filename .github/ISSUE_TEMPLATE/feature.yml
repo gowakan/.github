@@ -1,6 +1,5 @@
 name: Feature
 description: A new feature or user story (parent ticket)
-title: ""
 type: Feature
 projects: ["gowakan/3"]
 body:
