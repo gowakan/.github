@@ -28,8 +28,3 @@ type: Bug
 
 ## Evidence
 <!-- Screenshot, video, or API request and response -->
-
-
-## Related
-<!-- Parent feature or original ticket, for example: #123 -->
-#
